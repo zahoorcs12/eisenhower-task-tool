@@ -50,15 +50,10 @@ if ($request->getMethod() === 'POST') {
             font-family: 'Segoe UI', sans-serif;
             background: linear-gradient(-45deg, #1e3c72, #2a5298, #6dd5ed, #2193b0);
             background-size: 400% 400%;
-            animation: gradientMove 15s ease infinite;
             color: #fff;
         }
 
-        @keyframes gradientMove {
-            0% {background-position: 0% 50%;}
-            50% {background-position: 100% 50%;}
-            100% {background-position: 0% 50%;}
-        }
+        
 
         .container {
             padding-top: 40px;
@@ -72,7 +67,7 @@ if ($request->getMethod() === 'POST') {
         }
 
         .quadrant {
-            background-color: rgba(255, 255, 255, 0.1);
+            background-color: rgba(255, 255, 255, 50%);
             padding: 20px;
             border-radius: 10px;
             min-height: 200px;
@@ -83,7 +78,7 @@ if ($request->getMethod() === 'POST') {
         .quadrant h2 {
             font-size: 1.25rem;
             margin-bottom: 15px;
-            color: #fff;
+            color: #000;
         }
 
         .task {
