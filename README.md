@@ -44,7 +44,7 @@ This is a simple web-based application to help users manage and prioritize their
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/eisenhower-task-tool.git
+git clone https://github.com/zahoorcs12/eisenhower-task-tool.git
 cd eisenhower-task-tool
 ```
 
